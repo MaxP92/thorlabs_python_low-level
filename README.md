@@ -52,8 +52,6 @@ Summary: python routine for Thorlabs' lowlevel intrument control
 Home-page: https://
 Author: Maxime PINSARD
 Author-email: maxime.pinsard@outlook.com
-License: GPLv2
-Description:
         
 Platform: Windows
 Classifier: Intended Audience :: Science/Research
