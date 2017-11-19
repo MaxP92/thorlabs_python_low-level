@@ -12,6 +12,8 @@ Motivations : 'LLSetGetDigOPs' method is not in APT.dll
 So trigger IN/OUT cannot be set
 also, APT.dll can be used by many thorlabs instrument at the same  time, leading to possible instabilities
 
+I strongly reco;;end the reading of APT_Communications_Protocol
+
 ---------------------------------------------------------
 
 Config used for testing : 
