@@ -51,10 +51,9 @@ Lesser General Public License for more details.
 Name: thorlabs_lowlevel
 Version: 0.1
 Summary: python routine for Thorlabs' lowlevel intrument control
-Home-page: https://
 Author: Maxime PINSARD
 Author-email: maxime.pinsard@outlook.com
-        
+
 Platform: Windows
 Classifier: Intended Audience :: Science/Research
 Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
