@@ -86,7 +86,7 @@ else: # use ftdi
 motor_stageXY.write(thorlabs_lowlvl_list.command_req_info)
 # bb = ''
 # while (not bool(bb) and (time.time() - start_time) < timeout_sec):
-    bb = motor_stageXY.read(90) 
+bb = motor_stageXY.read(90) 
 print(bb[10:16], bb[24:67]) 
 motor_stageXY.write(thorlabs_lowlvl_list.command_req_info1)
 # bb = ''
