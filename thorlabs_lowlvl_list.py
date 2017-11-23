@@ -6,9 +6,7 @@ Created on Aug 15 15:35:13 2017
 """
 
 '''
-low-level commands, originally for a BBD102 controller
-Adapted for thorlabs motor controllers
-For other devices (K-cubes, piezo..), see APT Com. Protocol doc to adapt your functions
+XY stage with controller BBD102 : low-level commands maggle
 
 tips : ch1 = x21 = ! in utf-8 hx
 tips : ch2 = x22 = " in utf-8 hx
