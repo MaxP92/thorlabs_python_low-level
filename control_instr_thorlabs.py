@@ -13,7 +13,7 @@ for thorlabs instruments to get more functions than APT.dll
 ## parameters
 
 import array, os, time
-from modules import thorlabs_lowlvl_list
+import thorlabs_lowlvl_list
 os.chdir('~your working dir')
     
 port = 'COM4' # check what is your COM port
