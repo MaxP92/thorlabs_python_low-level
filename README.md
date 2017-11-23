@@ -1,4 +1,4 @@
-# thorlabs_python_low-level
+# thorlabs python low-level
 Python code implementing Thorlabs APT communication protocol, by-passing APT.dll
 
 Note : for APT.dll wrappers, see :
