@@ -246,13 +246,13 @@ motor_stageXY.write(thorlabs_lowlvl_list.command_req_profile_old_1)
 bb = motor_stageXY.read(18)
 print(bb)
 
-print(thorlabs_lowlvl_list2.get_profile_bycommand_meth(1, motor_stageXY))
+print(thorlabs_lowlvl_list.get_profile_bycommand_meth(1, motor_stageXY))
 
 motor_stageXY.write(thorlabs_lowlvl_list.command_req_profile_old_2)
 bb = motor_stageXY.read(18)
 print(bb)
 
-print(thorlabs_lowlvl_list2.get_profile_bycommand_meth(2, motor_stageXY))
+print(thorlabs_lowlvl_list.get_profile_bycommand_meth(2, motor_stageXY))
 
 ## set/get Trigger IN/OUT
 
