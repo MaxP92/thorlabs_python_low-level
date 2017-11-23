@@ -100,11 +100,6 @@ bb = motor_stageXY.read(90)
 print(bb[10:16], bb[24:52])    
 
 
-if thorlabs_lowlvl_list.get_chstate_bycommand_meth(1, motor_stageXY) != 1: # can be 2
-    motor_stageXY.write(thorlabs_lowlvl_list.command_En0) 
-    # thorlabs_lowlvl_list.get_chstate_bycommand_meth(0, motor_stageXY) does not work
-    motor_stageXY.write(thorlabs_lowlvl_list.command_EnCH1)
-
 # MSG update msg # I don't want a continuous set of message received !
 # MGMSG_MOT_REQ_PMDSTAGEAXISPARAMS
 # MGMSG_MOT_REQ_VELPARAMS
@@ -124,13 +119,6 @@ if thorlabs_lowlvl_list.get_chstate_bycommand_meth(1, motor_stageXY) != 1: # can
 # MGMSG_MOT_REQ_TRIGGER
 # for both channels
 # read parameters
-# MGMSG_MOT_ACK_DCSTATUSUPDATE
-    motor_stageXY.write(thorlabs_lowlvl_list.command_serv_alive1) # say that server is alive
-    # time.sleep(0.1)
-if thorlabs_lowlvl_list.get_chstate_bycommand_meth(2, motor_stageXY) != 1: # can be 2
-    motor_stageXY.write(thorlabs_lowlvl_list.command_EnCH2)
-    motor_stageXY.write(thorlabs_lowlvl_list.command_serv_alive2)
-    # time.sleep(0.1)
 
 blocking = True
 
