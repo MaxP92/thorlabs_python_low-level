@@ -27,10 +27,10 @@ BBD102 Firmware version : 1.1.6 (1.1.1 does not have all the functions)
 
 Required libraries :
 - pySerial : https://pythonhosted.org/pyserial/
-OR 
-- pyftdi : http://eblot.github.io/pyftdi/
-OR 
-- pylibftdi : https://pylibftdi.readthedocs.io/en/0.15.0/
+ 
+(OR pyftdi : http://eblot.github.io/pyftdi/
+
+OR  pylibftdi : https://pylibftdi.readthedocs.io/en/0.15.0/)
 
 
 Consider saying thanks ! --> maxime.pinsard@outlook.com
