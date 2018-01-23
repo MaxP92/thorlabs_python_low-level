@@ -1,5 +1,6 @@
 # thorlabs python low-level
-Python code implementing Thorlabs APT communication protocol, by-passing APT.dll
+Python code implementing Thorlabs APT communication protocol, by-passing APT.dll.
+
 This can be used if motor need a low-level control, or are controlled by RS 232 COM serial.
 
 - Note : for APT.dll wrappers, see :
