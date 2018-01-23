@@ -42,7 +42,7 @@ Example of move 👍
 
 `command_moveAbs1 = thorlabs_lowlvl_list.commandGen_moveAbsXY_meth(1, abs_dist)`
 
-`motor_stageXY.write(command_moveAbs1) # move dist
+`motor_stageXY.write(command_moveAbs1) # move dist`
 
 ---------------
 
