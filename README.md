@@ -1,14 +1,14 @@
 # thorlabs python low-level
 Python code implementing Thorlabs APT communication protocol, by-passing APT.dll
 
-Note : for APT.dll wrappers, see :
+(*) Note : for APT.dll wrappers, see :
 thorlabs_apt : https://github.com/qpit/thorlabs_apt
 pyAPT : https://github.com/mcleung/PyAPT/
 
 For another wrapper using low-level, see :
 thorpy : https://github.com/UniNE-CHYN/thorpy
 
-Motivations : 'LLSetGetDigOPs' method is not in APT.dll
+(*) Motivations : 'LLSetGetDigOPs' method is not in APT.dll
 So trigger IN/OUT cannot be set
 also, APT.dll can be used by many thorlabs instrument at the same  time, leading to possible instabilities
 
