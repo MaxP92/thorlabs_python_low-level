@@ -36,6 +36,15 @@ OR  pylibftdi : https://pylibftdi.readthedocs.io/en/0.15.0/)
 Consider saying thanks ! --> maxime.pinsard@outlook.com
 
 -----------------------------------------------------------
+Example of move 👍 
+
+`abs_dist = 10 # mm`
+
+`command_moveAbs1 = thorlabs_lowlvl_list.commandGen_moveAbsXY_meth(1, abs_dist)`
+
+`motor_stageXY.write(command_moveAbs1) # move dist
+
+---------------
 
 Copyright to the code is held by the following parties:
 Copyright (C) 2017 Maxime Pinsard, INRS-EMT Varennes
