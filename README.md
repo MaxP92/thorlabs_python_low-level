@@ -35,6 +35,7 @@ OR  pylibftdi : https://pylibftdi.readthedocs.io/en/0.15.0/)
 
 Consider saying thanks ! --> maxime.pinsard@outlook.com
 
+-----------------------------------------------------------
 
 Copyright to the code is held by the following parties:
 Copyright (C) 2017 Maxime Pinsard, INRS-EMT Varennes
